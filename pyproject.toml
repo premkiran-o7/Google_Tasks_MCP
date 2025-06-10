@@ -1,0 +1,17 @@
+[project]
+name = "google-tasks"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "google-api-python-client>=2.169.0",
+    "google-auth-httplib2>=0.2.0",
+    "google-auth-oauthlib>=1.2.2",
+    "langchain>=0.3.25",
+    "langchain-groq>=0.3.2",
+    "langchain-mcp-adapters>=0.0.10",
+    "langchain-openai>=0.3.16",
+    "langgraph>=0.4.2",
+    "mcp[cli]>=1.7.1",
+]
